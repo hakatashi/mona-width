@@ -141,3 +141,4 @@ target/
 # Font data
 *.ttf
 *.xml
+*.json
