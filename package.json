@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "phantom": "mochify test/*.ls --extension .ls --transform browserify-livescript",
-    "node": "mochify test/*.ls --extension .ls --transform browserify-livescript --node",
+    "phantom": "mochify test/*.ls --reporter spec --extension .ls --transform browserify-livescript",
+    "node": "mochify test/*.ls --reporter spec --extension .ls --transform browserify-livescript --node",
     "test": "npm run node && npm run phantom",
     "download": "lsc download.ls",
     "build": "npm run download && python build.py"
