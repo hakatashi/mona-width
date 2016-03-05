@@ -1,7 +1,7 @@
 require! {
+  'code-point-at'
   'array.from': array-from
   './widths.json': widths-data
-  'string.prototype.codepointat': code-point-at
 }
 
 # Compile widths data

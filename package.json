@@ -27,7 +27,7 @@
   "homepage": "https://github.com/hakatashi/mona-width#readme",
   "dependencies": {
     "array.from": "^1.0.0",
-    "string.prototype.codepointat": "^0.2.0"
+    "code-point-at": "^1.0.0"
   },
   "devDependencies": {
     "browserify-livescript": "^0.2.3",
