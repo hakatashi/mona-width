@@ -4,6 +4,9 @@ require! {
   './widths.json': widths-data
 }
 
+# Native array.from module doesn't seems to work well. Just use shim.
+array-from-shim = array-from.shim!
+
 # Compile widths data
 widths = []
 code-point = 1
@@ -19,7 +22,7 @@ module.exports = (string, options = {}) ->
 
   total-width = 0
 
-  for char in array-from string
+  for char in array-from-shim string
     code-point = code-point-at char
 
     # Search the width of the character by Binary Search algorithm
