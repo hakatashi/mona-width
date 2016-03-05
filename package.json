@@ -1,0 +1,28 @@
+{
+  "name": "mona-width",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakatashi/mona-width.git"
+  },
+  "keywords": [
+    "font",
+    "width",
+    "glyph"
+  ],
+  "author": "Koki Takahashi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hakatashi/mona-width/issues"
+  },
+  "homepage": "https://github.com/hakatashi/mona-width#readme",
+  "dependencies": {
+    "request": "^2.69.0",
+    "tar": "^2.2.1"
+  }
+}
