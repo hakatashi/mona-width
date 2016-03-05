@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "widths.json",
+    "test"
+  ],
   "scripts": {
     "phantom": "mochify test/*.ls --reporter spec --extension .ls --transform browserify-livescript",
     "node": "mochify test/*.ls --reporter spec --extension .ls --transform browserify-livescript --node",
