@@ -142,3 +142,6 @@ target/
 *.ttf
 *.xml
 *.json
+
+# Compiled JS
+*.js
