@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "download": "lsc download.ls"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/hakatashi/mona-width#readme",
   "dependencies": {
+    "livescript": "^1.4.0",
     "request": "^2.69.0",
     "tar": "^2.2.1"
   }
