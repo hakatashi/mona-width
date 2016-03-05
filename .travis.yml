@@ -1,5 +1,10 @@
 language: python
 python:
   - 3.5
-before_script: nvm install node
+env:
+  - NODE_VERSION=0.12
+  - NODE_VERSION=4
+  - NODE_VERSION=5
+  - NODE_VERSION=node
+before_script: nvm install $NODE_VERSION
 script: python build.py
