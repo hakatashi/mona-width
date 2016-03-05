@@ -25,7 +25,5 @@ if filename is \ipagp-mona.ttf
   console.log 'Writing ipagp-mona.ttf out...'
   entry.pipe writer
 
-  <- writer.on \end
-
-  console.log 'Writing font done. Exiting...'
-  downloader.abort!
+  <- entry.on \end
+  console.log 'Writing font file done!'
