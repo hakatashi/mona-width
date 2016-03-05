@@ -29,7 +29,7 @@ module.exports = (string, options = {}) ->
       mid = Math.floor (hi + lo) / 2
       test-code-point = widths[mid].0
 
-      if code-piont < test-code-point
+      if code-point < test-code-point
         hi = mid
       else if code-point is test-code-point
         hi = lo = mid
