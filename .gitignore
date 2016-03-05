@@ -132,3 +132,12 @@ target/
 
 # dotenv
 .env
+
+### Repository ###
+
+# Swaps
+*.sw[op]
+
+# Font data
+*.ttf
+*.xml
