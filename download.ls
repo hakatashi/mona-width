@@ -12,6 +12,7 @@ downloader = request IPA_MONAFONT_URL
 gunzipper = new zlib.Gunzip!
 parser = tar.Parse!
 
+console.log 'Downloading font...'
 downloader.pipe gunzipper .pipe parser
 
 entry <- parser.on \entry
@@ -20,7 +21,11 @@ filename = entry.path |> path.basename
 
 if filename is \ipagp-mona.ttf
   writer = fs.create-write-stream filename
+
+  console.log 'Writing ipagp-mona.ttf out...'
   entry.pipe writer
 
   <- writer.on \end
+
+  console.log 'Writing font done. Exiting...'
   downloader.abort!
