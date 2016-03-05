@@ -8,5 +8,5 @@ before_script:
   - nvm install $NODE_VERSION
   - npm install
 script:
-  - npm run download
-  - python build.py
+  - npm run build
+  - npm test
