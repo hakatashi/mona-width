@@ -38,7 +38,7 @@
     "browserify-livescript": "^0.2.3",
     "chai": "^3.5.0",
     "livescript": "^1.4.0",
-    "mocha": "^3.0.0",
+    "mocha": "^3.2.0",
     "mochify": "^2.17.0",
     "request": "^2.69.0",
     "tar": "^2.2.1"
